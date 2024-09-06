@@ -1,0 +1,52 @@
+.box-about-us {
+    background-color: #F3F3F3;
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* max-width: 400px; */
+    margin: 20px auto;
+    text-align: center;
+    text-align: left;
+        /* Вирівнювання тексту по лівій стороні */
+    border-radius: 50px;
+    padding: 80px 60px;
+    width: 580px;
+    height: 532px;
+}
+
+.about-us-title {
+    margin-top: 0;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    display: flex;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.about-us-paragraf {
+    margin: 10px 0;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.drop-buton {
+    margin-bottom: 40px;
+}
+
+.about-us-button {
+    background-color: #3350E9;
+    color: #FBFBFB;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
