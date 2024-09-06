@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchCharm</title>
+</head>
+<body>
+    <section class="contact-us">
+        <div class="container">
+            <h2 class="contact-us-title">Contact Us</h2>
+            <div class="contact-us-container">
+            <div class="container-connection">
+                <p class="connection">
+                    Please use the form below to contact us. 
+                    Enter your name, email, phone, 
+                    and message and we'll get back to you shortly.
+                </p>
+                <form>
+                    <div class="connection-container">
+                        <label class="connection-label" for="user-name"></label>
+                        <div class="connection-input-container">
+                        <input class="connection-input" name="user-name" type="text" id="user-name" 
+                        pattern="[a-zA-Z0-9_]{3,15}" placeholder="Name" required>
+                        </div>
+                    </div>
+                    <div class="connection-container">
+                        <label class="connection-label" for="user-email"></label>
+                        <input class="connection-input" name="user-email" type="email" id="user-email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required>
+                    </div>
+                    <div class="connection-container">
+                        <label class="connection-label" for="user-tel"></label>
+                        <input class="connection-input" name="user-tel" type="tel" id="user-tel" 
+                        pattern="\+?[0-9]{10,15}" placeholder="+380" required>
+                    </div>
+                    <div class="connection-comment-container">
+                        <label class="connection-label" for="user-comment"></label>
+                        <textarea class="connection-textarea" name="user-comment" id="user-comment" placeholder="Comment"></textarea>
+                    </div>
+                    <button type="submit" class="contact-us-btn">Send</button>
+                </form>
+            </div>
+            <picture class="picture-contact-us">
+                <source srcset="../img/contact-us/watch-desk.png 1x, ../img/contact-us/watch-desk-2x.png 2x"
+                media="(min-width: 1280px)" width="530" height="556">
+                <source srcset="../img/contact-us/watch-tab.png 1x, ../img/contact-us/watch-tab-2x.png 2x"
+                media="(min-width: 768px)">
+                <source srcset="../img/contact-us/watch-tel.png 1x, ../img/contact-us/watch-tel-2x.png 2x"
+                media="(max-width: 767px)">
+                <img src="../img/contact-us/watch-desk.png" alt="Watch on the stone">
+            </picture>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
