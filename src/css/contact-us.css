@@ -1,19 +1,13 @@
-.contact-us {
-    width: 335px;
-}
-
 .contact-us-title {
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
     margin-bottom: 24px;
 }
 
 .container-connection {
-    padding: 48px 28px 28px 28px;
-    max-width: 279px;
+    padding: 48px 28px 48px 28px;
     border-radius: 30px;
     background-color: #f3f3f3;
     margin-bottom: 20px;
@@ -36,31 +30,25 @@
     height: 42px;
     margin-bottom: 18px;
     background-color: #f3f3f3;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-    color: #0c0c0c;
     display: block;
-    font-family: "Gilroy", sans-serif;
+    outline: transparent;
 }
 
 .connection-textarea {
     background-color: #f3f3f3;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding-left: 14px;
-    padding-top: 12px;
+    padding-left: 12px 14px;
     width: 100%;
     height: 84px;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-    color: #0c0c0c;
     margin-bottom: 28px;
     resize: none;
     outline: transparent;
     display: block;
-    font-family: "Gilroy", sans-serif;
 }
 
 .contact-us-btn {
@@ -73,7 +61,7 @@
     font-size: 14px;
     line-height: 1.29;
     text-align: center;
-    color: #fbfbfb;
+    color: var(--cards);
 }
 
 @media screen and (min-width: 768px) {
@@ -109,7 +97,6 @@
         margin-bottom: 18px;
         font-size: 16px;
         line-height: 1.25;
-        color: #0c0c0c;
     }
 
     .connection-textarea {
@@ -149,7 +136,7 @@
     }
 
     .connection-input {
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
     }
 
     .connection-input:focus {
@@ -157,7 +144,7 @@
     }
 
     .connection-textarea {
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
     }
 
     .connection-textarea:focus {
@@ -165,7 +152,8 @@
     }
 
     .contact-us-btn {
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) linear, 
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
     }
 
     .contact-us-btn:hover,
