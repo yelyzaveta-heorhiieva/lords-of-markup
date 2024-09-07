@@ -3,6 +3,7 @@
 .dop-container {
         display: flex;
         flex-direction: column;
+        gap: 20px;
 }
 
 .box-about-us {
@@ -34,6 +35,7 @@
 
 .about-us-button {
     display: flex;
+    padding: 10px 20px;
     background-color: #3350E9;
     border-radius: 16px;
     width: 160px;
@@ -43,12 +45,15 @@
     line-height: 129%;
     color: #fbfbfb;
     transition: background-color 250 ms linear;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us-button:hover,
 .about-us-button:focus {
     background-color: #1F3CD4;
 }
+
 /* -=- */
 @media screen and (min-width: 768px) {
     
