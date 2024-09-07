@@ -1,0 +1,111 @@
+.container {
+  max-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.advertisement-section {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 30px;
+  background-image: url(../img/advertisement/image\ 72.png);
+  background-color: #0c0c0c;
+}
+@media screen and(-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .advertisement-section {
+    background-image: url(../img/advertisement/image\ 72-2x-min.png);
+  }
+}
+.title-text-button {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.text-advertisement {
+  justify-content: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+.p-text-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+.contact-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  cursor: pointer;
+  color: #fbfbfb;
+  background-color: transparent;
+  padding: 15px;
+  transition: 250ms;
+}
+.contact-btn:hover {
+  background-color: #fbfbfb;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .advertisement-section {
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/advertisement/tab-70-1x-min.png);
+  }
+  .text-advertisement {
+    width: 576px;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+  }
+  @media screen and (min-width: 768px) {
+    .advertisement-section {
+      background-image: url(../img/advertisement/tab-70-2x-min.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .container {
+    max-width: 1150px;
+  }
+  .advertisement-section {
+    background-image: url(../img/advertisement/descktop-70-1x-min.png);
+  }
+  .text-advertisement {
+    width: 690px;
+  }
+  .title-text-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+    padding: 83px 0;
+  }
+  .contact-btn {
+    justify-content: flex-end;
+  }
+  @media screen and (min-width: 1150px) {
+    .advertisement-section {
+      background-image: url(../img/advertisement/descktop-70-2x-min.png);
+    }
+  }
+}
