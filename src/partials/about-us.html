@@ -1,4 +1,5 @@
-<section class="about-us"></section>
+<section class="container"></section>
+<div class="about-us">
     <div class="box-about-us">
         <h3 class="about-us-title">About Us</h3>
         <p class="about-us-paragraf">Welcome to our premium watch collection, where luxury and style meet functionality
@@ -9,7 +10,12 @@
         <p class="about-us-paragraf drop-buton">At our premium watch collection, we believe that a watch is more than just a
             timekeeping device – it's a statement piece
             that reflects your personality and style. So why settle for anything less than the best?</p>
-        <button class="about-us-button">View catalog</button>
+        <button onclick="location.href='#catalog';" class="about-us-button">View catalog</button>
     </div>
-    <img class="about-us-img">
+    <picture class="about-us-img">
+        <source srcset="./img/about-us/about-us-one-ps.jpg 1x, ./img/about-us/about-us-two-pc@2x.jpg 2x" media="(min-width: 1280px)">
+        <source srcset="./img/about-us/about-us-one-pla.jpg 1x, ./img/about-us/about-us-two-pla@2x.jpg 2x" media="(min-width: 768px)">
+        <img src="./img/about-us/about-us-one-tel.jpg" srcset="./img/about-us/about-us-one-tel.jpg 1x, ./img/about-us/about-us-two-tel@2x.jpg 2x" alt="about-us" class="img-border-radius">
+    </picture>
+</div>
 </section>
