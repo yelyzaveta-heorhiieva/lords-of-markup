@@ -9,12 +9,10 @@
 .reviews-list > .hide-item {
     display: none;
 } 
-.reviews-list-container {
+.reviews-item {
     background-color: var(--cards);
     border-radius: 30px;
     padding: 32px 36px;
-    
-        
 }
 .reviews-list-img {
     margin-left: auto;
@@ -33,7 +31,7 @@
 .reviews-list-text {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
