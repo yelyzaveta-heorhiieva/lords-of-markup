@@ -1,219 +1,90 @@
-.dop-container {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
 
-.about-us {
+
+.dop-container {
         display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
+        flex-direction: column;
 }
 
 .box-about-us {
-    max-width: 600px;
-    margin-bottom: 20px;
     border-radius: 30px;
     background: #f3f3f3;
     padding: 40px 20px;
 }
 
 .about-us-title {
-    margin-bottom: 10px;
-    font-family: "Gilroy", sans-serif;
+    margin-bottom: 28px;
     font-weight: 600;
     font-size: 32px;
-    /* line-height: 32px; */
     line-height: 100%;
     letter-spacing: -0.02em;
-    color: #0c0c0c;
 }
 
 .about-us-paragraf {
-    margin-bottom: 10px;
-    font-family: "Gilroy", sans-serif;
+    margin-bottom: 20px;
     font-weight: 500;
     font-size: 14px;
-    /* line-height: 18px; */
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
 }
 
+.about-us-title.drop-buton {
+    margin-bottom: 40px;
+}
+
 .about-us-button {
-    padding: 10px 20px;
-    font-size: 1em;
+    display: flex;
     background-color: #3350E9;
-    color: #fff;
-    border: none;
-    cursor: pointer;
     border-radius: 16px;
     width: 160px;
     height: 48px;
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    /* line-height: 18px; */
     line-height: 129%;
-    text-align: center;
     color: #fbfbfb;
+    transition: background-color 250 ms linear;
 }
 
-.about-us-button:hover {
-    background-color: #1F3CD4;
-}
-
+.about-us-button:hover,
 .about-us-button:focus {
     background-color: #1F3CD4;
-}
-
-.about-us-img {
-        max-width: 100%;
-            height: auto;
 }
 /* -=- */
 @media screen and (min-width: 768px) {
     
     .box-about-us {
-        text-align: left;
-        padding: 20px;
-        max-width: 800px;
         padding: 80px 60px;
+        border-radius: 50px;
     }
 
     .about-us-title {
-        margin-bottom: 20px;
-        font-family: "Gilroy", sans-serif;
+        margin-bottom: 40px;
         font-weight: 600;
         font-size: 48px;
-        /* line-height: 44px; */
         line-height: 92%;
-        letter-spacing: -0.02em;
-        color: #0c0c0c;
     }
 
     .about-us-paragraf {
-        margin-bottom: 20px;
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
         font-size: 16px;
-        /* line-height: 20px; */
         line-height: 125%;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.7);
     }
 
-    .about-us-button {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        /* line-height: 18px; */
-        line-height: 129%;
-        text-align: center;
-        color: #fbfbfb;
-        width: 160px;
-        height: 48px;
-        margin-top: 60px;
-    }
-
-    .about-us-img {
-            max-width: 100%;
-                height: auto;
-                border-radius: 10px;
-    }
+.about-us-title.drop-buton {
+    margin-bottom: 60px;
+}
 }
 
 @media screen and (min-width: 1280px) {
 
     .dop-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* Дві колонки однакової ширини */
-        gap: 20px;
-        /* Відстань між колонками */
-        align-items: center;
-        /* Вирівнювання по вертикалі */
-        /* margin-right: 65px;
-        margin-left: 65px; */
-        /* перевірити чи є лівий марджин */
+        flex-direction: row;
     }
 
     .box-about-us {
-        background-color: #F3F3F3;
-        /* margin: 20px auto; */
-        /* text-align: center; */
-        /* text-align: left; Вирівнювання тексту по лівій стороні */
-        border-radius: 50px;
-        padding: 80px 60px;
         width: 580px;
-        height: 532px;
-        text-align: left;
-        /* Вирівнювання тексту по лівій стороні */
     }
 
-    .about-us-title {
-        margin-top: 0;
-        font-family: "Gilroy", sans-serif;
-        font-weight: 600;
-        font-size: 48px;
-        display: flex;
-        line-height: 92%;
-        letter-spacing: -0.02em;
-        color: #0c0c0c;
-    }
-
-    .about-us-paragraf {
-        margin: 10px 0;
-        line-height: 125%;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.7);
-    }
-
-    .drop-buton {
+    .about-us-title.drop-buton {
         margin-bottom: 40px;
-    }
-
-    .about-us-button {
-        background-color: #3350E9;
-        color: #FBFBFB;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border-radius: 16px;
-        width: 160px;
-        height: 48px;
-        font-family: "Gilroy", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-    }
-
-    .about-us-button:hover {
-        background-color: #1F3CD4;
-    }
-
-    .about-us-button:focus {
-        background-color: #1F3CD4;
-    }
-
-    .about-us-img {
-        display: flex;
-    }
-
-    .image {
-        text-align: right;
-        /* Вирівнювання зображення по правій стороні */
-    }
-
-    .about-us-img {
-        max-width: 100%;
-        width: 530px;
-        height: 532px;
-    }
-
-    .img-border-radius {
-        border-radius: 50px;
     }
 }
