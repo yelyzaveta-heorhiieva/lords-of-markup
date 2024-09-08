@@ -26,7 +26,6 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  margin-bottom: 28px;
 }
 .p-text-color {
   color: rgba(251, 251, 251, 0.5);
@@ -46,6 +45,7 @@
   background-color: transparent;
   padding: 15px 43px;
   transition: 250ms;
+  margin-top: 28px;
 }
 .contact-btn:hover {
   background-color: #fbfbfb;
@@ -57,6 +57,7 @@
     max-width: 768px;
   }
   .title-text-button {
+    padding: 80px 64px;
     justify-content: space-between;
     align-items: center;
     background-image: url(../img/advertisement/tab-70-1x-min.png);
@@ -66,12 +67,14 @@
     font-size: 48px;
     line-height: 0.91667;
     letter-spacing: -0.02em;
-    margin-bottom: 32px;
   }
-  @media screen and (min-width: 768px) {
-    .title-text-button {
-      background-image: url(../img/advertisement/tab-70-2x-min.png);
-    }
+  .contact-btn {
+    margin-top: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .title-text-button {
+    background-image: url(../img/advertisement/tab-70-2x-min.png);
   }
 }
 
@@ -84,6 +87,7 @@
   }
   .text-advertisement {
     width: 690px;
+    height: 132px;
   }
   .title-text-button {
     display: flex;
@@ -94,10 +98,11 @@
   }
   .contact-btn {
     justify-content: flex-end;
+    margin: 0;
   }
-  @media screen and (min-width: 1150px) {
-    .title-text-button {
-      background-image: url(../img/advertisement/descktop-70-2x-min.png);
-    }
+}
+@media screen and (min-width: 1150px) {
+  .title-text-button {
+    background-image: url(../img/advertisement/descktop-70-2x-min.png);
   }
 }
