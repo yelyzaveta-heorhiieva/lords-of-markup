@@ -1,12 +1,7 @@
-.container {
-  max-width: 320px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-.advertisement-section {
-  display: block;
+.title-text-button {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   color: white;
   border-radius: 30px;
   background-image: url(../img/advertisement/image\ 72.png);
@@ -15,16 +10,17 @@
 @media screen and(-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .advertisement-section {
+  .title-text-button {
     background-image: url(../img/advertisement/image\ 72-2x-min.png);
   }
 }
 .title-text-button {
+  padding-left: 28px;
+  padding-right: 28px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .text-advertisement {
-  justify-content: center;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -36,7 +32,6 @@
   color: rgba(251, 251, 251, 0.5);
 }
 .contact-btn {
-  display: inline-block;
   text-decoration: none;
   text-align: center;
   border: 1px solid rgba(251, 251, 251, 0.15);
@@ -49,7 +44,7 @@
   cursor: pointer;
   color: #fbfbfb;
   background-color: transparent;
-  padding: 15px;
+  padding: 15px 43px;
   transition: 250ms;
 }
 .contact-btn:hover {
@@ -61,7 +56,7 @@
   .container {
     max-width: 768px;
   }
-  .advertisement-section {
+  .title-text-button {
     justify-content: space-between;
     align-items: center;
     background-image: url(../img/advertisement/tab-70-1x-min.png);
@@ -74,7 +69,7 @@
     margin-bottom: 32px;
   }
   @media screen and (min-width: 768px) {
-    .advertisement-section {
+    .title-text-button {
       background-image: url(../img/advertisement/tab-70-2x-min.png);
     }
   }
@@ -84,19 +79,16 @@
   .container {
     max-width: 1150px;
   }
-  .advertisement-section {
+  .title-text-button {
     background-image: url(../img/advertisement/descktop-70-1x-min.png);
   }
   .text-advertisement {
     width: 690px;
   }
   .title-text-button {
-    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
     font-size: 48px;
     padding: 83px 0;
   }
@@ -104,7 +96,7 @@
     justify-content: flex-end;
   }
   @media screen and (min-width: 1150px) {
-    .advertisement-section {
+    .title-text-button {
       background-image: url(../img/advertisement/descktop-70-2x-min.png);
     }
   }
