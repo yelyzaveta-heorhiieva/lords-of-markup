@@ -135,6 +135,7 @@ border: 1px solid rgba(251, 251, 251, 0.2);
          border-radius: 20px;
          width: 132px;
          height:calc((100% - 30px) / 4);
+         padding: 18px 16px;
     }
 
 
@@ -142,6 +143,7 @@ border: 1px solid rgba(251, 251, 251, 0.2);
                 border-radius: 50px;
                 width: 552px;
                 height: 558px;
+                padding: 80px 112px;
         }
 
 
@@ -213,6 +215,7 @@ border: 1px solid rgba(251, 251, 251, 0.2);
 
     .li-list-img-sale:last-child{
     width: 428px;
+    padding: 80px 50px;
     }
     
 .ul-list-block-sale {
