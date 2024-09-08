@@ -44,7 +44,7 @@
     font-size: 14px;
     line-height: 129%;
     color: #fbfbfb;
-    transition: background-color 250 ms linear;
+    transition: background-color 250ms linear;
     align-items: center;
     justify-content: center;
 }
