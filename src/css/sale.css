@@ -1,9 +1,9 @@
+
 .first-h-three-sale {
         font-weight: 600;
         font-size: 32px;
         line-height: 100%;
         letter-spacing: -0.02em;
-        color: #0c0c0c;
         margin-bottom: 24px;
 }
 
@@ -14,10 +14,10 @@
     margin-bottom: 20px;
 }
 
-.li-list-img-sale:not(:last-child) {
+.li-list-img-sale{
     border: 1px solid rgba(12, 12, 12, 0.05);
         border-radius: 16px;
-        width: 80px;
+        width: calc((100% - 15px) / 4);
         height: 80px;
         background-color: #f3f3f3;
 display: flex;
@@ -27,7 +27,7 @@ display: flex;
 .li-list-img-sale:last-child{
     border: 1px solid rgba(12, 12, 12, 0.05);
         border-radius: 30px;
-        width: 335px;
+        width: 100%;
         height: 385px;
         background-color: #f3f3f3;
         display: flex;
@@ -36,15 +36,9 @@ display: flex;
 }
 .container-sale{
     border-radius: 30px;
-        width: 335px;
-        height: 561px;
+        width: 100%;
+        padding: 48px 28px;
         background-color: #3350e9;
-}
-.container-text-sale {
-padding-top: 48px;
-margin-left: 28px;
-margin-right: 28px;
-   margin-bottom: 20px;
 }
 
 .second-h-three-sale {
@@ -57,26 +51,20 @@ margin-right: 28px;
 }
 
 .first-p-sale {
-        font-weight: 400;
         font-size: 14px;
         line-height: 129%;
         letter-spacing: -0.02em;
         color: rgba(251, 251, 251, 0.5);
+        margin-bottom: 20px;
 }
 
 .div-conainer-price {
     display: flex;
-    margin-left: 28px;
     margin-bottom: 28px;
+    gap: 9px;
+    align-items: center;
 }
 
-.div-container-cena {
-    border-radius: 8px;
-        width: 68px;
-        height: 32px;
-        background-color: rgba(251, 251, 251, 0.1);
-        text-align: center;
-}
 
 .first-p-sale-price {
         font-weight: 600;
@@ -84,7 +72,11 @@ margin-right: 28px;
         line-height: 125%;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        padding-top: 8px;
+        padding: 8px 12px;
+        background-color: rgba(251, 251, 251, 0.1);
+            width: 68px;
+            height: 32px;
+            border-radius: 8px;
 }
 
 .second-p-sale-price {
@@ -94,8 +86,6 @@ margin-right: 28px;
         letter-spacing: -0.02em;
         text-decoration: line-through;
         color: rgba(251, 251, 251, 0.5);
-        padding-top: 9px;
-        margin-left: 9px;
 }
 
 .second-p-sale {
@@ -104,8 +94,6 @@ margin-right: 28px;
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
-    margin-left: 28px;
-    margin-right: 28px;
     margin-bottom: 28px;
 }
 
@@ -115,15 +103,12 @@ margin-right: 28px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-left: 28px;
-    margin-right: 28px;
 }
 
 .li-list-block-sale {
 border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
-    width: max-content;
 }
 .p-sale-list-block{
         font-weight: 500;
@@ -143,44 +128,31 @@ border: 1px solid rgba(251, 251, 251, 0.2);
     }
 
     .ul-list-img-sale{
-        display: block;
-        position: relative;
         margin-bottom: 40px;
+        flex-direction: column;
+            row-gap: 10px;
+            column-gap: 20px;
+            height: 558px;
     }
 
 
-        .li-list-img-sale:not(:last-child){
+        .li-list-img-sale{
          border-radius: 20px;
          width: 132px;
-         height: 132px;
+         height:calc((100% - 30px) / 4);
     }
 
-        .li-list-img-sale:not(:first-child){
-            margin-top: 10px;
-        }
 
-        .li-list-img-sale:last-child{
-            position: absolute;
+        .li-list-img-sale:last-child{   
                 border-radius: 50px;
                 width: 552px;
                 height: 558px;
-                left: 152px;
-                top: 0;
-                margin-top: 0;
         }
 
 
     .container-sale {
     border-radius: 50px;
-    width: 704px;
-    height: 518px;
-    }
-
-    .container-text-sale {
-    padding-top: 60px;
-    margin-left: 60px;
-    margin-right: 208px;
-    margin-bottom: 20px;
+    padding: 60px;
     }
 
     .second-h-three-sale {
@@ -189,25 +161,20 @@ border: 1px solid rgba(251, 251, 251, 0.2);
     }
 
     .div-conainer-price {
-        margin-left: 60px;
         margin-bottom: 30px;
     }
 
-    .div-container-cena {
-    width: 78px;
-    }
 
     .first-p-sale-price {
     font-size: 20px;
     line-height: 100%;
+    width: 78px;
     }
 
 
     .second-p-sale {
     font-size: 16px;
     line-height: 125%;
-    margin-left: 60px;
-    margin-right: 60px;
     margin-bottom: 40px;
     }
 
@@ -247,6 +214,7 @@ border: 1px solid rgba(251, 251, 251, 0.2);
 
     .container-for-decstop-version{
         display: flex;
+        justify-content: space-between;
     }
 
     .li-list-img-sale:last-child{
@@ -255,20 +223,6 @@ border: 1px solid rgba(251, 251, 251, 0.2);
     
     .container-sale {
             width: 530px;
-            height: 558px;
-            margin-left: 488px;
-    }
-
-    .container-text-sale {
-        margin-right: 81px;
-    }
-
-    .second-p-sale-price {
-
-    }
-
-    .ul-list-block-sale {
-        margin-right: 72px;
     }
 }
     
