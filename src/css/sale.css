@@ -1,0 +1,230 @@
+
+.h-two-sale {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+        margin-bottom: 24px;
+}
+
+.ul-list-img-sale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+    margin-bottom: 20px;
+}
+
+.li-list-img-sale{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 16px;
+        width: calc((100% - 15px) / 4);
+        background-color: #f3f3f3;
+        padding: 13px 14px;
+}
+.li-list-img-sale:last-child{
+    border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 30px;
+        width: 100%;
+        padding: 50px;
+        background-color: #f3f3f3;
+}
+.container-sale{
+    border-radius: 30px;
+        width: 100%;
+        padding: 48px 28px;
+        background-color: #3350e9;
+}
+
+.h-three-sale {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.first-p-sale {
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
+        margin-bottom: 20px;
+}
+
+.div-conainer-price {
+    display: flex;
+    margin-bottom: 28px;
+    gap: 9px;
+    align-items: center;
+}
+
+
+.first-p-sale-price {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        padding: 8px 12px;
+        background-color: rgba(251, 251, 251, 0.1);
+            width: 68px;
+            height: 32px;
+            border-radius: 8px;
+}
+
+.second-p-sale-price {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        text-decoration: line-through;
+        color: rgba(251, 251, 251, 0.5);
+}
+
+.second-p-sale {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+
+
+.ul-list-block-sale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.li-list-block-sale {
+border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.p-sale-list-block{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 133%;
+        color: #fbfbfb;
+}
+
+
+/* #region sale tab */
+@media only screen and (min-width: 768px){
+
+    .h-two-sale {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+    }
+
+    .ul-list-img-sale{
+        margin-bottom: 40px;
+        flex-direction: column;
+            row-gap: 10px;
+            column-gap: 20px;
+            height: 558px;
+    }
+
+
+        .li-list-img-sale{
+         border-radius: 20px;
+         width: 132px;
+         height:calc((100% - 30px) / 4);
+         padding: 18px 16px;
+    }
+
+
+        .li-list-img-sale:last-child{   
+                border-radius: 50px;
+                width: 552px;
+                height: 558px;
+                padding: 80px 112px;
+        }
+
+
+    .container-sale {
+    border-radius: 50px;
+    padding: 60px;
+    }
+
+    .h-three-sale {
+            font-size: 32px;
+            line-height: 112%;
+    }
+
+    .div-conainer-price {
+        margin-bottom: 30px;
+    }
+
+
+    .first-p-sale-price {
+    font-size: 20px;
+    line-height: 100%;
+    width: 78px;
+    }
+
+
+    .second-p-sale {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 40px;
+    }
+
+    .ul-list-block-sale {
+    margin-right: 186px;
+    }
+
+    .p-sale-list-block {
+    font-size: 14px;
+    line-height: 129%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+/* #endregion sale tab */
+
+
+
+
+
+
+
+@media only screen and (min-width: 1280px){
+
+    .ul-list-img-sale {
+    margin-bottom: 0;
+}
+
+    .container-for-decstop-version{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .li-list-img-sale:last-child{
+    width: 428px;
+    padding: 80px 50px;
+    }
+    
+.ul-list-block-sale {
+    margin-right: 0;
+
+    }
+
+    .container-sale {
+            width: 530px;
+    }
+}
+    
