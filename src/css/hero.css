@@ -1,25 +1,12 @@
-.section-hero {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 28px;
-  width: 375px;
-  height: 732px;
-}
 .container {
 }
 .hero-div-one {
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 .hero-text-div {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
-  height: 206px;
 }
 .hero-main-header {
   font-weight: 600;
@@ -34,28 +21,21 @@
 .hero-text {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 .hero-image-div {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-start;
   flex-direction: row;
-  gap: 155px;
-  width: 335px;
-  height: 44px;
+  justify-content: space-between;
   margin-top: 20px;
-}
-.hero-people {
-  width: 108px;
-  height: 44px;
 }
 .hero-button {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -65,133 +45,43 @@
 .hero-button:focus {
   color: #3350e9;
 }
-.hero-div-image {
-  border-radius: 30px;
-  width: 335px;
-  height: 366px;
-  background: rgba(12, 12, 12, 0.2);
-}
 @media screen and (min-width: 768px) {
-  .section-hero {
-    gap: 40px;
-    width: 768px;
-    height: 900px;
-  }
   .hero-div-one {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 11px;
-    width: 704px;
-    height: 260px;
-    padding-left: 11px;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
   .hero-text-div {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 20px;
+    width: 557px;
   }
   .hero-main-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 557px;
-    height: 260px;
+    font-size: 70px;
+    line-height: 0.86;
   }
   .hero-text {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
+    width: 480px;
   }
   .hero-image-div {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
     flex-direction: column;
-    width: 136px;
-    height: 260px;
     margin-top: 0;
-    padding-right: 32px;
   }
-  .hero-people {
-    width: 136px;
-    height: 60px;
-  }
-  .hero-div-image {
-    border-radius: 50px;
-    width: 704px;
-    height: 520px;
+  .hero-button {
+    font-size: 20px;
+    line-height: 1;
   }
 }
 @media screen and (min-width: 1280px) {
-  .section-hero {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 40px;
-    width: 1280px;
-    height: 875px;
-  }
-  .hero-div-one {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 407px;
-    width: 1150px;
-    height: 269px;
-  }
   .hero-text-div {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 20px;
     width: 597px;
-    height: 269px;
   }
   .hero-main-header {
-    font-weight: 600;
     font-size: 72px;
-    line-height: 0.875;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    max-width: 597px;
-    max-height: 189px;
+    line-height: 0.88;
   }
   .hero-text {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    max-width: 480px;
-    max-height: 60px;
-  }
-  .hero-image-div {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 189px;
-    width: 146px;
-    height: 269px;
-  }
-  .hero-people {
-    width: 146px;
-    height: 60px;
-  }
-  .hero-div-image {
-    border-radius: 50px;
-    width: 1150px;
-    height: 500px;
   }
 }
