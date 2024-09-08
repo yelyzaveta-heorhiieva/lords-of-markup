@@ -1,7 +1,5 @@
-.header {
-}
 .header-container {
-  border-bottom: ;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,6 +126,15 @@
   fill: var(--background);
   opacity: 0.8;
 }
+.social-icon-mobile:hover,
+.social-icon-mobile:focus {
+  fill: var(--background);
+  opacity: 0.8;
+}
+.social-link-mobile:hover,
+.social-link-mobile:focus {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+}
 
 @media screen and (min-width: 768px) {
   .header-container {
@@ -197,8 +204,6 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-  }
-  .nav-item-header {
   }
   .nav-link-header {
     display: block;
