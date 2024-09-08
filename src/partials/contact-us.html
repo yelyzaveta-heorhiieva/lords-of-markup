@@ -1,0 +1,35 @@
+
+    <section class="contact-us">
+        <div class="container">
+            <h2 class="contact-us-title">Contact Us</h2>
+            <div class="contact-us-container">
+                <div class="container-connection">
+                    <p class="connection">
+                        Please use the form below to contact us.
+                        Enter your name, email, phone,
+                        and message and we'll get back to you shortly.
+                    </p>
+                    <form>
+                        <input class="connection-input" name="user-name" type="text" id="user-name"
+                            pattern="[a-zA-Z0-9_]{3,15}" placeholder="Name" required>
+                        <input class="connection-input" name="user-email" type="email" id="user-email"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required>
+                        <input class="connection-input" name="user-tel" type="tel" id="user-tel"
+                            pattern="\+?[0-9]{10,15}" placeholder="+380" required>
+                        <textarea class="connection-textarea" name="user-comment" id="user-comment"
+                            placeholder="Comment"></textarea>
+                        <button type="submit" class="contact-us-btn">Send</button>
+                    </form>
+                    </div>
+                <picture class="picture-contact-us">
+                    <source srcset="./img/contact-us/watch-desk.png 1x, ./img/contact-us/watch-desk-2x.png 2x"
+                        media="(min-width: 1280px)">
+                    <source srcset="./img/contact-us/watch-tab.png 1x, ./img/contact-us/watch-tab-2x.png 2x"
+                        media="(min-width: 768px)">
+                    <source srcset="./img/contact-us/watch-tel.png 1x, ./img/contact-us/watch-tel-2x.png 2x"
+                        media="(max-width: 767px)">
+                    <img src="./img/contact-us/watch-desk.png" alt="Watch on the stone">
+                </picture>
+            </div>
+        </div>
+    </section>
