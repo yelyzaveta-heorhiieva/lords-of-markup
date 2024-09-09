@@ -155,6 +155,8 @@
     stroke-width: 3px;
   }
   .mobile-menu {
+    width: 330px;
+
     background-image: url(../img/header/menu-tab-1x.jpg);
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -175,7 +177,7 @@
   .nav-list-mobile {
     gap: 32px;
   }
-  .social-list-mobileХ {
+  .social-list-mobile {
     bottom: 50px;
   }
 }
