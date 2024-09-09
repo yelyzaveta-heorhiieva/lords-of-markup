@@ -50,7 +50,8 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms linear, visibility 250ms linear, transform 1s linear;
+  transition: opacity 250ms linear, visibility 250ms linear,
+    transform 0.5s linear;
 }
 
 .mobile-menu.is-open {
