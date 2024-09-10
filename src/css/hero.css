@@ -1,5 +1,4 @@
-.container {
-}
+
 .hero-div-one {
   margin-bottom: 28px;
 }
@@ -40,6 +39,7 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
+  transition: color 250ms linear;
 }
 .hero-button:hover,
 .hero-button:focus {
