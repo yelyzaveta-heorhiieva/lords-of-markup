@@ -1,99 +1,95 @@
-
-
 .dop-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .box-about-us {
-    border-radius: 30px;
-    background-color: #f3f3f3;
-    padding: 40px 20px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 40px 20px;
 }
 
 .about-us-title {
-    margin-bottom: 28px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
 }
 
 .about-us-paragraf {
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .about-us-paragraf.drop-buton {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .about-us-button {
-    display: flex;
-    padding: 10px 20px;
-    background-color: #3350E9;
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    color: #fbfbfb;
-    transition: background-color 250ms linear;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #3350e9;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+  transition: background-color 250ms linear;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-us-button:hover,
 .about-us-button:focus {
-    background-color: #1F3CD4;
+  background-color: #1f3cd4;
 }
 
 /* -=- */
 @media screen and (min-width: 768px) {
+  .dop-container {
+    gap: 40px;
+  }
 
-    .dop-container {
-            gap: 40px;
-        }
-    
-    .box-about-us {
-        padding: 80px 60px;
-        border-radius: 50px;
-    }
+  .box-about-us {
+    padding: 80px 60px;
+    border-radius: 50px;
+  }
 
-    .about-us-title {
-        margin-bottom: 40px;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 92%;
-    }
+  .about-us-title {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+  }
 
-    .about-us-paragraf {
-        font-size: 16px;
-        line-height: 125%;
-    }
+  .about-us-paragraf {
+    font-size: 16px;
+    line-height: 125%;
+  }
 
-.about-us-paragraf.drop-buton {
+  .about-us-paragraf.drop-buton {
     margin-bottom: 60px;
-}
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .dop-container {
+    flex-direction: row;
+  }
 
-    .dop-container {
-        flex-direction: row;
-    }
+  .box-about-us {
+    width: 580px;
+  }
 
-    .box-about-us {
-        width: 580px;
-    }
-
-    .about-us-paragraf.drop-buton {
-        margin-bottom: 40px;
-    }
+  .about-us-paragraf.drop-buton {
+    margin-bottom: 40px;
+  }
 }
